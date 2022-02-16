@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script data-main = "libs/main" src = "libs/require.js"></script> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    
+    <style>
+
+    </style>
+  </head>
+  <body onload="initMap()">
+    <div id="map"></div>
+    <div class="container">
+      <h3>Podaj na jaką literę wyszukać miasta</h3>
+      <input class="litera" maxlength="1" type="text">
+      <button class="show">Pokaż miasta</button>
+
+    </div>
+
+    <script src="./data.json"></script>
+    <script src="./main.js">
+
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkwr5rmzY9btU08sQlU9N0qfmo8YmE91Y&libraries=places&callback"
+         async defer></script>
+  </body>
+</html>
